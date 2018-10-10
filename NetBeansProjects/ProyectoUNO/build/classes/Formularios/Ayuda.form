@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="fondo" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="fondo" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="fondo">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="99" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="scrpInformacion" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="0" pref="150" max="32767" attributes="0"/>
+                          <Component id="btnVolver" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                          <Component id="btnContacto" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="150" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                  <Component id="scrpInformacion" pref="357" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnVolver" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnContacto" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="scrpInformacion">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="txtaInformacion">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="UNIVERSIDAD NACIONAL EXPERIMENTAL DE GUAYANA&#xa;VICE-RECTORADO ACAD&#xc9;MICO&#xa;COORD. GENERAL DE PREGRADO&#xa;PROYECTO DE CARRERA: INGENIER&#xcd;A EN INFORM&#xc1;TICA&#xa;&#xa;Prof. Jannelly Bello&#xa;Unidad Curricular: T&#xe9;cnicas de Programaci&#xf3;n III&#xa;&#x9;&#x9;&#xa;OBJETIVO&#xa;&#xa;Evaluar las habilidades de los estudiantes en cuanto al desarrollo de software, utilizando conceptos de la &#xa;Programaci&#xf3;n Orientada a Objetos y la aplicaci&#xf3;n de modelos de proceso de software en la soluci&#xf3;n de problemas.&#xa;&#xa;&#xa;PLANTEAMIENTO DEL PROBLEMA&#xa;&#xa;Uno es un juego de cartas que fue desarrollado en los a&#xf1;os 70 por Merle Robbins.  Los derechos fueron comprados &#xa;por International Games y actualmente es Mattel el encargado de producir y distribuir el juego.&#xa;&#xa;El objetivo del juego es ser el primero en lograr 500 puntos. Los puntos se logran al deshacerse de las cartas &#xa;de la mano antes que los oponentes. El jugador logra puntos con las cartas que el oponente no pudo descartar. &#xa;&#xa;&#xa;El n&#xfa;mero de participantes es de m&#xed;nimo 2 personas, m&#xe1;ximo 10.&#xa;&#xa;&#xa;El juego est&#xe1; conformado por 108 cartas distribuidas de la siguiente manera:&#xa;&#xa;CARTAS NORMALES: Representadas por n&#xfa;meros y colores.&#xa;&#xa;19 cartas azules - 0 a 9 (Dos cartas para cada numero excepto el 0. Solo tiene una)&#xa;19 cartas verdes - 0 a 9 (Dos cartas para cada numero excepto el 0. Solo tiene una)&#xa;19 cartas rojas - 0 a 9 (Dos cartas para cada numero excepto el 0. Solo tiene una)&#xa;19 cartas amarillas - 0 a 9 (Dos cartas para cada numero excepto el 0. Solo tiene una).&#xa;&#xa;CARTAS ESPECIALES O COMODINES: Permiten alterar el flujo normal del juego mediante ciertas acciones&#xa;&#xa;8 cartas Toma dos - 2 azules, 2 verdes, 2 rojas y 2 amarillas&#xa;8 cartas Reversa - 2 azules, 2 verdes, 2 rojas y 2 amarillas&#xa;8 cartas Salta - 2 azules, 2 verdes, 2 rojas y 2 amarillas&#xa;4 cartas de comod&#xed;n de color&#xa;4 cartas de comod&#xed;n Toma cuatro&#xa;&#xa;&#xa;Se pide desarrollar una soluci&#xf3;n inform&#xe1;tica para el juego descrito. Para ello deber&#xe1; realizarse el an&#xe1;lisis, &#xa;dise&#xf1;o e implementaci&#xf3;n de m&#xf3;dulos que se detallan m&#xe1;s adelante.&#xa;&#xa;Reglas Del Juego: &#xa;&#xa;&#x201c;Cada jugador toma una carta. La persona que tenga el n&#xfa;mero m&#xe1;s grande ser&#xe1; quien reparta. En esta parte del &#xa;juego, las cartas de acci&#xf3;n cuentan como cero.&#xa;&#xa;Despu&#xe9;s de barajar las cartas, se reparten 7 cartas a cada jugador.&#xa;&#xa;Las cartas restantes se colocan cara abajo para formar la pila para ROBAR. La primera carta de la pila para &#xa;ROBAR se voltea para formar una pila para DESCARTAR. Si la carta que se voltea de la pila para ROBAR es una &#xa;carta de acci&#xf3;n, se tienen que seguir ciertas reglas (ver FUNCIONES DE CARTAS DE ACCI&#xd3;N).&#xa;&#xa;El jugador a la izquierda del repartidor empieza. Tiene que hacer coincidir, ya sea por n&#xfa;mero, color o s&#xed;mbolo, &#xa;la carta en la pila de DESCARTE con una de sus cartas. Por ejemplo: Si la muestra es un 7 rojo, el jugador podr&#xe1; &#xa;descartar una carta roja o un siete de cualquier color. El jugador tambi&#xe9;n podr&#xe1; tirar un Comod&#xed;n de &#xa;color (ver FUNCIONES DE CARTAS DE ACCI&#xd3;N).&#xa;&#xa;Si el jugador no tiene ninguna carta que corresponda a la carta de la pila para DESCARTAR, entonces deber&#xe1; tomar &#xa;una carta de la pila para ROBAR. Si se puede jugar esta carta, el jugador la puede descartar en ese turno. &#xa;De lo contrario, el juego contin&#xfa;a con el siguiente jugador en turno.&#xa;&#xa;Un jugador puede optar por no jugar una carta jugable de su mano. De hacer esto, el jugador debe robar una carta &#xa;de la pila para ROBAR. Si es una carta que coincida, &#xe9;sta se puede descartar en el mismo turno, pero el jugador &#xa;no puede usar otra carta de la mano despu&#xe9;s de haber robado.&#xa;&#xa;&#xa;&#xa;FUNCIONES DE LAS CARTAS DE ACCI&#xd3;N&#xa;&#xa;Las funciones de las cartas de acci&#xf3;n, as&#xed; como cu&#xe1;ndo se pueden descartar, se describen abajo.&#xa;&#xa;Carta Toma Dos - Cuando se tira esta carta, el siguiente jugador roba dos cartas y pierde su turno. Esta carta &#xa;&#x9;     s&#xf3;lo se puede descartar sobre una carta del mismo color o sobre otra carta Toma dos. &#xa;&#x9;     Si &#xe9;sta es la primera carta del juego que se voltea, se sigue la misma regla de juego.&#xa;&#xa;Carta Reversa - Cambia el sentido del juego. Si le tocara jugar al jugador de la izquierda de quien tira la carta,&#xa;&#x9; este jugador pierde su turno; en su lugar jugar&#xe1; la persona de la derecha, y el sentido se cambiar&#xe1; hacia la &#xa;&#x9; derecha. Esta carta s&#xf3;lo se puede descartar sobre una carta del mismo color o sobre otra carta Reversa. &#xa;&#x9; Si &#xe9;sta es la primera carta del juego que se voltea, al repartidor le toca primero y el juego contin&#xfa;a hacia la &#xa;&#x9; derecha.&#xa;&#xa;Carta  Salta  -    Al jugador que le toque jugar pierde su turno y tirar&#xe1; el siguiente de acuerdo al sentido del juego.&#xa;&#x9;Esta carta s&#xf3;lo se puede descartar sobre una carta del mismo color o sobre otra carta Salta. &#xa;&#x9;Si &#xe9;sta es la primera carta del juego que se voltea, se &#x201c;salta&#x201d; al jugador a la izquierda del &#xa;&#x9;repartidor y empieza el siguiente jugador.&#xa;&#xa;Comod&#xed;n De Color - El jugador que descarte esta carta dir&#xe1; el nuevo color que se jugar&#xe1; o puede repetir el &#xa;&#x9;        que ya estaba para descartarse. Esta carta se puede tirar con cualquier carta; incluso, &#xa;&#x9;        puede ser utilizada en caso de tener alguna carta con el n&#xfa;mero o color correspondiente. &#xa;&#x9;        Si &#xe9;sta es la primera carta del juego que se voltea, el jugador a la izquierda del repartidor &#xa;&#x9;        decide el color con el que empezar&#xe1; el juego.&#xa;&#xa;Carta Comod&#xed;n Toma Cuatro  -  Esta es la mejor carta. No solamente quien la tira escoje su color, sino que adem&#xe1;s &#xa;&#x9;&#x9;hace que el siguiente jugador robe 4 cartas y pierda su turno. Desafortunadamente, &#xa;&#x9;&#x9;esta carta s&#xf3;lo se puede descartar si el jugador que la tiene no tiene otra carta en &#xa;&#x9;&#x9;su mano que coincida en color con la de la pila de DESCARTE. S&#xed; se puede descartar &#xa;&#x9;&#x9;esta carta si el jugador tiene en su mano cartas que coincidan en n&#xfa;mero o cartas de &#xa;&#x9;&#x9;acci&#xf3;n. Un jugador con esta carta se puede arriesgar a descartarla &#x201c;ilegalmente&#x201d;, &#xa;&#x9;&#x9;pero si se le sorprende se tienen que seguir ciertas reglas (ver CASTIGOS). Si &#xe9;sta &#xa;&#x9;&#x9;es la primera carta del juego que se voltea, se regresa a la pila y se voltea otra &#xa;&#x9;&#x9;carta.&#xa;&#xa;DECIR &#x2018;UNO&#x2019;&#xa;&#xa;Cuando a un jugador le quede una sola carta, tiene que decir en voz alta &#x201c;UNO&#x201d;. De lo contrario, deber&#xe1; robar &#xa;dos cartas de la pila para ROBAR. Esto s&#xf3;lo es necesario en caso de que uno de los jugadores sorprenda al &#xa;jugador saliente sin haber dicho &#x201c;UNO&#x201d; (ver CASTIGOS).&#xa;&#xa;Cuando un jugador descarte todas sus cartas, se acaba la mano. Los puntos se suman (ver PUNTUACI&#xd3;N) y el juego &#xa;vuelve e empezar.&#xa;&#xa;Si la &#xfa;ltima carta del ganador fue una carta Toma dos o un Comod&#xed;n Toma cuatro, el siguiente jugador deber&#xe1; &#xa;robar las cartas correspondientes, ya que &#xe9;stas contar&#xe1;n para los puntos del ganador. &#xa;&#xa;Si la pila para ROBAR se termina y ning&#xfa;n jugador ha ganado, deja la &#xfa;ltima carta y revuelve el monto para &#xa;voltearlo y tener nuevamente una pila de donde robar.&#xa;&#xa;&#xa;PUNTUACI&#xd3;N&#xa;&#xa;Cuando un jugador gana, se suman los puntos de las cartas que los oponentes no pudieron descartar. La puntuaci&#xf3;n &#xa;ser&#xe1; como sigue:&#xa;&#xa;Todas las cartas con n&#xfa;mero . . . . . . . . . . . . . Valor del n&#xfa;mero&#xa;Toma Dos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20 puntos&#xa;Reversa . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20 puntos&#xa;Salta . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20 puntos&#xa;Comod&#xed;n . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50 puntos&#xa;Comod&#xed;n Toma cuatro . . . . . . . . . . . . . . . . . . . 50 puntos&#xa;&#xa;PARA GANAR EL JUEGO&#xa;&#xa;El ganador es el primero en llegar a 500 puntos. Tambi&#xe9;n se pueden ir sumando los puntos de cada jugador al final&#xa;de cada juego; as&#xed;, cuando alg&#xfa;n jugador llegue a 500, el que tenga menos puntos ser&#xe1; el ganador.&#xa;&#xa;CASTIGOS&#xa;&#xa;Si a un jugador se le olvida decir &#x201c;UNO&#x201d; antes de que su pen&#xfa;ltima carta toque la pila para DESCARTAR, pero se &#xa;acuerda de hacerlo (y dice &#x201c;UNO&#x201d;) antes de que otro jugador lo sorprenda, no est&#xe1; sujeto al castigo.&#xa;&#xa;No se puede sorprender a un jugador por no decir &#x201c;UNO&#x201d; sino hasta que su pen&#xfa;ltima carta toque la pila para &#xa;DESCARTAR. Tampoco no se puede sorprender a un jugador por no decir &#x201c;UNO&#x201d; despu&#xe9;s de que el siguiente jugador &#xa;empiece su turno. &#x201c;Empezar un turno&#x201d; significa robar una carta de la pila para ROBAR o descartar una carta de su &#xa;propia mano de cartas.&#xa;&#xa;Si un jugador le aconseja a otro tirar una carta, el primero deber&#xe1; robar 2 cartas de la pila para ROBAR.&#xa;&#xa;Si un jugador descarta una carta equivocada y cualquiera de los jugadores se da cuenta, el jugador que descart&#xf3; &#xa;deber&#xe1; tomar su carta y robar otras 2 cartas de la pila para ROBAR. El juego contin&#xfa;a con la siguiente persona &#xa;en turno.&#xa;&#xa;Si un jugador tira un Comod&#xed;n Toma cuatro ilegalmente, (esto es, teniendo alguna carta con el color que &#xa;corresponda) y alguien lo desaf&#xed;a a mostrar sus cartas, deber&#xe1; ense&#xf1;ar sus cartas al jugador que lo desafi&#xf3;.&#xa;&#xa;Si es culpable, deber&#xe1; robar 4 cartas; si no lo es, el desafiante tendr&#xe1; que robar 2 cartas, adem&#xe1;s de las 4 del &#xa;comod&#xed;n. Este desaf&#xed;o s&#xf3;lo lo puede hacer el jugador a quien le toque tomar las 4 cartas, despu&#xe9;s de que se &#xa;descarte el Comod&#xed;n Toma cuatro.&#x201d; http://es.scribd.com/doc/62426655/reglas-del-juego-UNO-espanol.&#xa;&#xa;&#xa;MODULOS A DESARROLLAR:&#xa;&#xa;  Modulo Gesti&#xf3;n Usuario:&#xa;&#x9;Permite administrar la informaci&#xf3;n de los distintos usuarios de j-UNO. &#xa;&#x9;Datos a registrar por usuario: Nombre, Apellido, Nickname (campo &#xfa;nico por usuario), email, &#xa;&#x9;imagen asociada, clave. Es posible modificar la informaci&#xf3;n del usuario excepto el nickname.&#xa;&#x9;Un usuario puede dar de baja su cuenta temporalmente, con la posibilidad de reactivarla en otra &#xa;&#x9;oportunidad.&#xa;&#xa;  M&#xf3;dulo Crear Partida:&#xa;&#x9;Un usuario puede crear partida en j-UNO. Para ello debe:&#xa;&#x9;Indicar cantidad de usuarios con los que se quiere jugar. (min 2- max 4). &#xa;&#x9;El sistema de manera aleatoria genera partida con la cantidad de jugadores indicados. &#xa;&#x9;El usuario podr&#xe1; colocarles nombres a dichos jugadores e imagen que los identifique en la partida. &#xa;&#x9;Adicionalmente el usuario indicara modalidad de partida que puede ser de dos maneras: &#xa;&#x9;  1. Partida R&#xe1;pida: Se gana cuando un jugador quede sin cartas.&#xa;&#x9;  2. Partida Acumulativa: Se gana cuando un jugador acumule cierta cantidad de puntos, &#xa;&#x9;     en este caso se le indica al usuario que indique la puntuaci&#xf3;n m&#xed;nima acumulada para ganar.&#xa;&#x9;Un usuario podr&#xe1; abandonar una partida en cualquier momento.&#xa;&#xa;  M&#xf3;dulo De Estad&#xed;sticas:&#xa;&#x9;El j-UNO debe generar estad&#xed;sticas para cada usuario (registrado o generado aleatoriamente) que haya &#xa;&#x9;jugado partida, considerando: Cant. De partidas jugadas, Cantidad de partidas ganadas, cantidad de &#xa;&#x9;partidas perdidas, cantidad de partidas abandonadas y posici&#xf3;n en que ocupa en el ranking de jugadores &#xa;&#x9;(considerando partidas ganadas). &#xa;&#xa;  M&#xf3;dulo De Almacenamiento De Datos:&#xa;&#x9;Modulo que se encarga del almacenamiento y carga de datos generadas por j-uno. Para ello es indispensable &#xa;&#x9;el uso de archivos XML.  La estructura y cantidad de archivos ser&#xe1;n definidos por el equipo.&#xa;&#xa;&#xa;CONSIDERACIONES FINALES:&#xa;&#x9;&#xf0fc;  Equipos conformados por 3 personas. Excepto un equipo de 2 personas. &#xa;&#x9;&#xf0fc;  El proyecto ser&#xe1; corregido bajo el IDE Netbeans 7.0.&#xa;&#x9;&#xf0fc;  La partida debe ejecutarse en red. Min. 4 jugadores conectados.&#xa;&#x9;&#xf0fc;  La correcci&#xf3;n exige la presencia de todos los integrantes del equipo, en caso contrario no se evaluar&#xe1; el proyecto.&#xa;&#x9;&#xf0fc;  Las entregas del proyecto se har&#xe1;n  en un sobre manila sellado e identificado con los nombres de los miembros &#xa;   &#x9;     del equipo. El sobre debe contener documentos impresos (NO C&#xd6;DIGO) y en digital las versiones de c&#xf3;digo. &#xa;&#xa;&#xa;METODOLOGIA DE DESARROLLO&#xa;&#x9;Metodolog&#xed;a &#xe1;gil para el desarrollo de Software. Programaci&#xf3;n Extrema.&#xa;&#xa;&#xa;LIBRERIAS A UTILIZAR EN EL PROYECTO&#xa;&#x9;&#xf0fc;  JDOM: Librer&#xed;a para la gesti&#xf3;n y manejo de archivos XML.&#xa;&#x9;&#xf0fc;  JAVADOC: Librer&#xed;a para generar la documentaci&#xf3;n del proyecto. &#xa;&#x9;&#xf0fc;  SOCKETS: Api de JAVA para conexi&#xf3;n en red.&#xa;&#xa;&#xa;CRONOGRAMA DE ENTREGAS&#xa;      Semana&#x9;   Fecha    Tipo de Evaluaci&#xf3;n&#x9;Ponderaci&#xf3;n&#xa;&#x9;13&#x9;30/07/2014&#x9;Entrega I&#x9;    15%&#xa;&#x9;16&#x9;01/10/2014&#x9;Entrega II&#x9;    20%&#xa;&#xa;CONSIDERACIONES ADICIONALES:&#xa;&#x9;&#xa;&#x9;&#xf0fc; A petici&#xf3;n de la prof. se anula la creaci&#xf3;n de jugadores aleatorios por parte de la PC.&#xa;&#x9;&#xf0fc; Como el encargado de repartir de las cartas es el mismo software, el jugador que saque la mayor carta ser&#xe1; qien empiece."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="btnVolver">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Volver"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnVolverMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnContacto">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Contacto"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnContactoMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
